@@ -1,52 +1,119 @@
-# OnionVuln Studio Website
+<div align="center">
 
-Responsive static portfolio/product website for the `ovulndeveloper` GitHub Pages site.
+# OnionVuln - ovulndeveloper
 
-## Included
-- Responsive desktop, tablet and mobile layout
-- CSS-built visual identity; no AI-generated artwork
-- PixVelo product section and screenshot slots
-- PixVelo vs Tinix comparison with claims explicitly attributed to PixVelo's README
-- Live public GitHub profile/repository cards via GitHub's unauthenticated public API
-- Browser-local SHA-256 file hashing
-- VirusTotal hash-report lookup link (does not upload a file or claim to perform a fresh scan)
-- No build step, backend, database, or API keys required
+**Independent Developer · Open-Source Builder · Security Researcher**
 
-## Add your own logo and screenshots
-Put your original product assets in `assets/`:
-- `logo.png` (optional; current header uses a CSS/text monogram)
-- `pixvelo-main.png`
-- `pixvelo-preview.png`
-- `pixvelo-settings.png`
-- `pixvelo-batch.png`
+<a href="https://readme-typing-svg.demolab.com/demo/">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Building+useful+software;Desktop+applications+and+developer+tools;Performance%2C+privacy%2C+and+open+source" alt="Animated developer introduction" />
+</a>
 
-The site displays designed placeholders when screenshots are absent. Replace them with real screenshots captured from PixVelo. No generated images are included.
+<p>
+  <a href="https://github.com/ovulndeveloper?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-Explore-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
+  </a>
+  <a href="https://github.com/ovulndeveloper/PixVelo">
+    <img src="https://img.shields.io/badge/Featured_Project-PixVelo-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="PixVelo project" />
+  </a>
+  <a href="https://onionvuln.github.io">
+    <img src="https://img.shields.io/badge/Website-Visit-238636?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Website" />
+  </a>
+</p>
 
-## Deploy using GitHub Pages
-1. Create or open the repository intended for the website (for example `ovulndeveloper.github.io`).
-2. Upload the **contents** of this folder to the repository root. Do not upload only the ZIP file.
-3. Open **Settings → Pages**.
-4. Set the source to **GitHub Actions**.
-5. Push to the `main` branch. The included workflow publishes the site.
-6. Open the Pages URL shown in Settings → Pages.
+</div>
 
-Alternatively, choose **Deploy from a branch**, select `main` and `/ (root)`. If you use that method, the included workflow is unnecessary.
+---
 
-## Test locally
-Run a local web server from this folder:
-```bash
-python -m http.server 8000
-```
-Open `http://localhost:8000`. Web Crypto requires HTTPS or localhost; it will not work from a `file://` URL.
+## About
 
-## VirusTotal and file privacy
-The selected file is read locally in the browser to calculate SHA-256 using the Web Crypto API. The page opens a VirusTotal search URL for that digest. This only checks for an existing report. Unknown hashes may not have a report; a hash lookup is not a new malware scan. This page does not upload the file. Do not put a VirusTotal API key in public JavaScript; a real API integration needs a protected server-side component and must respect VirusTotal's terms and file privacy.
+I'm an independent developer focused on building practical software, exploring how systems work, and making useful tools accessible.
 
-## Tinix comparison
-The comparison section is an editorial summary of claims and criticisms contained in the PixVelo repository README. It is not an independent technical, security, privacy, or legal audit of Tinix. The wording deliberately attributes allegations rather than stating them as verified facts. Review the current source README and Tinix's own documentation before publishing strong claims.
+My interests include desktop application engineering, software architecture, performance, open-source development, reverse engineering, and security research.
 
-## Customize
-- Change profile links and account name in `index.html` / `app.js`.
-- Replace placeholder screenshots in `assets/`.
-- Change colors, spacing and typography in `styles.css`.
-- Update product facts when PixVelo releases change.
+- Building and maintaining independent software projects.
+- Exploring application internals and system behavior.
+- Developing tools that solve practical workflow problems.
+- Learning through implementation, testing, and technical research.
+- Supporting open-source software and transparent development.
+
+## Featured project
+
+<div align="center">
+
+### [PixVelo Studio](https://github.com/ovulndeveloper/PixVelo)
+
+**A desktop image-processing and optimization toolkit.**
+
+<a href="https://github.com/ovulndeveloper/PixVelo">
+  <img src="https://img.shields.io/github/stars/ovulndeveloper/PixVelo?style=for-the-badge&logo=github&label=Stars" alt="PixVelo stars" />
+  <img src="https://img.shields.io/github/license/ovulndeveloper/PixVelo?style=for-the-badge&label=License" alt="PixVelo license" />
+</a>
+
+</div>
+
+PixVelo brings image compression, conversion, batch processing, cropping, previewing, and file workflow tools together in a desktop application.
+
+| Area | Highlights |
+|---|---|
+| Image formats | JPEG, PNG, WebP, AVIF, TIFF, BMP, ICO, PDF, GIF, TGA, RAW, HEIC, DICOM, and TINIX |
+| Batch workflow | Queue-based asynchronous processing |
+| Image preview | Before/after comparison and pixel-difference preview |
+| Editing | Crop presets and freeform cropping |
+| Processing | Lanczos3 rendering and image-processing libraries |
+| Desktop experience | Dark mode and keyboard shortcuts |
+| Distribution | Installer and portable package |
+
+**Project links:** [Repository](https://github.com/ovulndeveloper/PixVelo) · [Issues](https://github.com/ovulndeveloper/PixVelo/issues) · [Releases](https://github.com/ovulndeveloper/PixVelo/releases)
+
+## What I work on
+
+- **Software engineering** — application architecture, maintainable code, performance, and developer experience.
+- **Desktop development** — utilities, file processing, interfaces, and software distribution.
+- **Security research** — reverse engineering, application behavior, defensive analysis, and authorized testing.
+- **Open source** — practical tools, clear documentation, and community-driven improvement.
+
+## Technologies and tools
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Zstandard-2D3748?style=flat-square" alt="Zstandard" />
+</p>
+
+## GitHub statistics
+
+<div align="center">
+
+
+<br />
+
+<a href="https://streak-stats.demolab.com">
+  <img src="https://streak-stats.demolab.com?user=ovulndeveloper&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
+</a>
+
+</div>
+
+## Contribution activity
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ovulndeveloper/ovulndeveloper/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution graph" />
+
+</div>
+
+## Connect
+
+<div align="center">
+
+[GitHub](https://github.com/ovulndeveloper) · [Website](https://onionvuln.github.io) · [BlackTools](https://blacktools.tech)
+
+<br />
+
+*Build with purpose. Understand the details. Share useful work.*
+
+<sub>Thanks for visiting my profile.</sub>
+
+</div>
