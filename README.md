@@ -87,6 +87,8 @@ PixVelo brings image compression, conversion, batch processing, cropping, previe
 
 <div align="center">
 
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ovulndeveloper&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ovulndeveloper&layout=compact&theme=github_dark&hide_border=true" alt="Most used languages" />
 
 <br />
 

@@ -4,10 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d12">
+  <meta name="color-scheme" content="dark">
   <meta name="description" content="OnionVuln — independent software developer building practical desktop software, open-source tools and security utilities.">
+  <meta name="author" content="OnionVuln Developer">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ovulndeveloper.github.io/ovulndeveloper/">
   <meta property="og:title" content="OnionVuln — Software, engineered with intent">
   <meta property="og:description" content="Explore PixVelo, software projects, engineering notes and file-integrity tools.">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OnionVuln">
+  <meta property="og:url" content="https://ovulndeveloper.github.io/ovulndeveloper/">
+  <meta property="og:image" content="https://ovulndeveloper.github.io/ovulndeveloper/assets/pixvelo-main.png">
+  <meta property="og:image:alt" content="PixVelo application screenshot">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OnionVuln — Software, engineered with intent">
+  <meta name="twitter:description" content="Practical desktop software, open-source tools and security utilities.">
+  <meta name="twitter:image" content="https://ovulndeveloper.github.io/ovulndeveloper/assets/pixvelo-main.png">
   <title>OnionVuln — Software, engineered with intent</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,16 +28,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="topbar">
     <a class="brand" href="#home" aria-label="OnionVuln home"><span class="brand-mark">OV</span><span>ONIONVULN<span class="brand-dot">.</span></span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav" id="nav">
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-controls="nav" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav" aria-label="Primary">
       <a href="#products">Products</a><a href="#engineering">Engineering</a><a href="#comparison">PixVelo vs Tinix</a><a href="#security">File check</a><a href="#github">GitHub</a>
       <a class="nav-cta" href="https://github.com/ovulndeveloper" target="_blank" rel="noreferrer">View GitHub ↗</a>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero section-wrap" id="home">
       <div class="hero-copy">
         <div class="eyebrow"><span class="pulse"></span> INDEPENDENT SOFTWARE DEVELOPMENT</div>
@@ -57,7 +70,7 @@
         </div>
         <div class="product-media">
           <div class="media-frame"><div class="media-toolbar"><span>PIXVELO / WORKSPACE</span><span>● ● ●</span></div>
-            <img class="product-shot" src="assets/pixvelo-main.png" alt="PixVelo application screenshot" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <img class="product-shot" src="assets/pixvelo-main.png" alt="PixVelo application screenshot" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
             <div class="media-placeholder"><div class="placeholder-icon">▧</div><strong>YOUR PIXVELO SCREENSHOT</strong><span>Add your real screenshot at<br><code>assets/pixvelo-main.png</code></span></div>
           </div>
           <div class="media-caption"><span>PRODUCT CAPTURE / 01</span><span>ORIGINAL APP SCREENSHOT</span></div>
@@ -65,9 +78,9 @@
       </article>
       <div class="product-facts"><div><strong>14*</strong><span>format families described</span></div><div><strong>ASYNC</strong><span>batch workflow</span></div><div><strong>LOCAL</strong><span>processing-focused workflow</span></div><div><strong>OPEN</strong><span>source on GitHub</span></div></div>
       <div class="gallery-grid">
-        <div class="gallery-tile"><img src="assets/pixvelo-preview.png" alt="PixVelo preview screenshot" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder"><b>SCREENSHOT 02</b><span>assets/pixvelo-preview.png</span></div><span class="gallery-caption">BEFORE / AFTER PREVIEW</span></div>
-        <div class="gallery-tile"><img src="assets/pixvelo-settings.png" alt="PixVelo settings screenshot" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder"><b>SCREENSHOT 03</b><span>assets/pixvelo-settings.png</span></div><span class="gallery-caption">SETTINGS / WORKFLOW</span></div>
-        <div class="gallery-tile"><img src="assets/pixvelo-batch.png" alt="PixVelo batch screenshot" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder"><b>SCREENSHOT 04</b><span>assets/pixvelo-batch.png</span></div><span class="gallery-caption">BATCH PROCESSING</span></div>
+        <div class="gallery-tile"><img src="assets/pixvelo-preview.png" alt="PixVelo preview screenshot" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder"><b>SCREENSHOT 02</b><span>assets/pixvelo-preview.png</span></div><span class="gallery-caption">BEFORE / AFTER PREVIEW</span></div>
+        <div class="gallery-tile"><img src="assets/pixvelo-settings.png" alt="PixVelo settings screenshot" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder"><b>SCREENSHOT 03</b><span>assets/pixvelo-settings.png</span></div><span class="gallery-caption">SETTINGS / WORKFLOW</span></div>
+        <div class="gallery-tile"><img src="assets/pixvelo-batch.png" alt="PixVelo batch screenshot" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="gallery-placeholder"><b>SCREENSHOT 04</b><span>assets/pixvelo-batch.png</span></div><span class="gallery-caption">BATCH PROCESSING</span></div>
       </div>
       <p class="fine-print">*The repository README describes support for 14 format families. Verify individual format support against the current build.</p>
     </section>
